@@ -1,0 +1,83 @@
+*,body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Didact Gothic;
+}
+body .main-container {
+	background-image: url(Images/image.png);
+	height: 1067px;
+	max-width: 1800px;
+}
+.inner-container{
+	max-width: 587px;
+	margin: 0 auto;
+}
+body .main-container header {
+	height: 48px;
+    margin: 0 0 99px;
+	line-height: 44px;
+	font-size: 16px;
+	text-align: center; 
+	background-color: rgba(192,192,192,0.2);
+}
+body .main-container ul li {
+	display: inline;
+	margin-right: 38px;
+	line-height: 31px;
+}
+body .main-container ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.main-container .Title {
+	margin: 0 0 87px;
+}
+.main-container .Title h1 {
+	font-weight: 300;
+	margin-bottom: 21px;
+	color: #ffffff;
+	font-size: 66px;
+}
+.main-container .Title h3 {
+	color: #cccccc;
+	font-size: 21.28px;
+	font-weight: 100;
+	text-align: center;
+}
+.main-container .Title h3 span {
+	color: #ffffff;
+	font-size: 26.59px;
+}
+.main-container .content h4 {
+	font-size: 24px;
+	margin-bottom: 24px;
+	color: #ffffff;
+	text-align: left;
+	font-weight: 100;
+}
+.main-container .content p {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Arial;
+	text-align: justify;
+	line-height: 22px;
+	margin-bottom: 38px;
+}
+.main-container .content p:last-child{
+	margin-bottom: 0px;
+}
+.main-container .content  .paragraph{
+	margin-bottom: 65px;
+}
+.main-container footer {
+	font-size: 14px;
+	color: #b1afaf;
+}
+.main-container footer ul li{
+	display: inline;
+	margin-right: 53px;
+}
+i{
+	margin-right: 6px;
+}
